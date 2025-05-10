@@ -11,6 +11,11 @@ body {
     
 }
 
+img {
+    width: 20px;
+    text-align: left;
+}
+
 .main {
     font-family: Karla, sans-serif;
     margin-bottom: 30px;
@@ -40,16 +45,41 @@ span {
 .pw-btn {
     background-color: #273549;
     border: none;
-    width: 190px;
+    width: 140px;
     height: 39px;
-    padding: 5px 10px;
+    padding: 5px 0 5px 0;
     color: #10B981;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
 
+}
+
+.copy-btn {
+    background-color: #273549;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 50px;
+
+}
+
+.copy-btn:hover {
+    background-color: #10B981;
 }
 
 .bottom-half {
     display: flex;
     width: 400px;
     justify-content: space-between;
+}
+
+.button-group {
+    display: flex;
+    width: 200px;
+}
+
+#copied-pw {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: #D5D4D8;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
 }
