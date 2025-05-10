@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: #1F2937;
+    background: #1F2937;
     color: #ffffff;
     font-family: Inter, sans-serif;
 }
 .container {
     width: 400px;
-    margin: auto;
+    margin: 70px auto;
     text-align: left;
     
 }
